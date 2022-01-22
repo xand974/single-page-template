@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: calc(100vh - 40px);
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*NAV*/
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  padding: 15px 30px;
+}
+
+.nav__link:nth-of-type(5) {
+  margin-left: 40px;
+}
+
+.nav__link--black {
+  background: black;
+  color: white;
+  font-weight: lighter;
+}
+
+/*MAIN*/
+
+#hero {
+  height: calc(100vh - 68px);
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
