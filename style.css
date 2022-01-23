@@ -259,3 +259,24 @@ a {
   border: none;
   cursor: pointer;
 }
+
+#footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: rgb(161, 161, 161);
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__small-text {
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+}
